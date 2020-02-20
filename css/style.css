@@ -412,3 +412,91 @@ footer .copyright {
 footer .nav-link:hover:after {
     background-color: #595959;
 }
+
+.big-post {
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.big-post .post-col {
+    min-height: 40vh;
+    height: auto;
+    box-shadow: 0px 0px 6px 3px #e7e7e7;
+    padding: 0px !important;
+}
+
+.big-post .post-col .post-content {
+    bottom: 0px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.big-post .post-col .post-content h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(255, 255, 255, 0.8) !important;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+
+.big-post .post-col .post-content .post-details {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #FFF;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.big-post .post-col .post-content .post-details i {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.big-post .post-col .post-content .post-details .detail-border {
+    margin-right: 20px;
+    padding-right: 30px;
+    border-right: 0.5px solid #FFF;
+}
+
+.big-post .post-col .post-content .post-description {
+    width: 60%;
+}
+
+
+.big-post .post-col .post-content .post-description p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.8) !important;
+    font-size: 16px;
+    line-height: 25px;
+}
+.big-post .post-col .post-content .post-link {
+    border-width: 0.5px;
+    border-color: #FFF;
+    color: #FFF !important;
+}
+
+.big-post .post-col .post-content .post-link:hover {
+    border-color: #FFC94B;
+}
+
+.posts-page .post {
+    margin-bottom: 30px;
+}
+
+/*
+
+color: #4a6163 DARK
+
+color: #FFC94B YELLOW
+
+color: #595959 GREY TEXT
+
+font-family: 'Open Sans', sans-serif;
+
+font-family: 'Lato', sans-serif;
+
+font-family: 'Montserrat', sans-serif;
+
+*/
